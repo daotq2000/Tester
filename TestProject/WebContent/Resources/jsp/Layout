@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<base href="${pageContext.servletContext.contextPath}/">
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="Resources/img/logo/logo.png" rel="icon">
+<title>RuangAdmin - Dashboard</title>
+<link href="Resources/vendor/fontawesome-free/css/all.min.css"
+	rel="stylesheet" type="text/css">
+<link href="Resources/vendor/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet" type="text/css">
+<link href="Resources/css/ruang-admin.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+	<div id="wrapper">
+
+		<jsp:include page="component/menu-ol.jsp" />
+
+		<div id="content-wrapper" class="d-flex flex-column">
+			<div id="content">
+				<jsp:include page="component/menu-ul.jsp" />
+				<div class="container-fluid" id="container-wrapper">
+					<jsp:include page="${param.view}" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="Resources/vendor/jquery/jquery.min.js"></script>
+	<script src="Resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="Resources/vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="Resources/js/ruang-admin.min.js"></script>
+	<script src="Resources/vendor/chart.js/Chart.min.js"></script>
+	<script src="Resources/js/demo/chart-area-demo.js"></script>
+</body>
+</html>

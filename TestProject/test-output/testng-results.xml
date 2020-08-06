@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" ignored="0" total="24" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8512" started-at="2020-06-26T15:03:52Z" finished-at="2020-06-26T15:04:01Z">
+    <groups>
+    </groups>
+    <test name="QLNV_03" duration-ms="5958" started-at="2020-06-26T15:03:52Z" finished-at="2020-06-26T15:03:58Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="setUpu" is-config="true" duration-ms="29" started-at="2020-06-26T15:03:52Z" finished-at="2020-06-26T15:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:52Z" finished-at="2020-06-26T15:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5519" started-at="2020-06-26T15:03:52Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@74294adb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@74294adb]" name="addStaff1" duration-ms="264" started-at="2020-06-26T15:03:58Z" description="Test DepartMent" finished-at="2020-06-26T15:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[          ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="AfterMethod" is-config="true" duration-ms="95" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@74294adb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@74294adb]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_03 -->
+    <test name="QLNV_05" duration-ms="92" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@76329302]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@76329302]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@76329302]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@76329302]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@76329302]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@76329302]" name="addStaff1" duration-ms="47" started-at="2020-06-26T15:03:58Z" description="Test DepartMent" finished-at="2020-06-26T15:03:58Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@76329302]" name="AfterMethod" is-config="true" duration-ms="36" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@76329302]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@76329302]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@76329302]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_05 -->
+    <test name="QLNV_06" duration-ms="22" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@1176dcec]" name="setUpu" is-config="true" duration-ms="4" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@1176dcec]" name="addStaff1" duration-ms="14" started-at="2020-06-26T15:03:58Z" description="Test DepartMent" finished-at="2020-06-26T15:03:58Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: addStaff1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=2, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=7, type=java.lang.Double, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=10, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}])
+Arguments: [null,null,null,null,null,null,null,null,null,null,(java.lang.Boolean) false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: addStaff1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=2, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=7, type=java.lang.Double, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=10, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}])
+Arguments: [null,null,null,null,null,null,null,null,null,null,(java.lang.Boolean) false]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@1176dcec]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@1176dcec]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@1176dcec]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@1176dcec]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:58Z" finished-at="2020-06-26T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_06 -->
+    <test name="QLNV_07" duration-ms="150" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="4" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="addStaff1" duration-ms="105" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="AfterMethod" is-config="true" duration-ms="35" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@1445d7f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_07 -->
+    <test name="QLNV_08" duration-ms="5" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@6166e06f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@6166e06f]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@6166e06f]" name="addStaff1" duration-ms="0" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: addStaff1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=2, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=7, type=java.lang.Double, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=10, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}])
+Arguments: [(java.lang.String) daotq,(java.lang.String) Tran Quang Dao,null,(java.lang.String) 01/02/1998,(java.lang.String) user.jpg,(java.lang.String) daodq@gmail.com,(java.lang.String) 0976707569,(java.lang.Double) 10000.0,(java.lang.String) Ch?a có,(java.lang.String) NS,(java.lang.Boolean) false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: addStaff1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=2, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=7, type=java.lang.Double, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}, Parameter{index=10, type=boolean, declaredAnnotations=[@org.testng.annotations.Optional(value=null)]}])
+Arguments: [(java.lang.String) daotq,(java.lang.String) Tran Quang Dao,null,(java.lang.String) 01/02/1998,(java.lang.String) user.jpg,(java.lang.String) daodq@gmail.com,(java.lang.String) 0976707569,(java.lang.Double) 10000.0,(java.lang.String) Ch?a có,(java.lang.String) NS,(java.lang.Boolean) false]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@6166e06f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@6166e06f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@6166e06f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_08 -->
+    <test name="QLNV_09" duration-ms="81" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@38364841]" name="setUpu" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@38364841]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@38364841]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@38364841]" name="addStaff1" duration-ms="42" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@38364841]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@38364841]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@38364841]" name="AfterMethod" is-config="true" duration-ms="31" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@38364841]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@38364841]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@38364841]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_09 -->
+    <test name="QLNV_10" duration-ms="83" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="setUpu" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@77be656f]" name="addStaff1" duration-ms="38" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@77be656f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="AfterMethod" is-config="true" duration-ms="40" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@77be656f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@77be656f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_10 -->
+    <test name="QLNV_11" duration-ms="75" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@525b461a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@525b461a]" name="addStaff1" duration-ms="37" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="AfterMethod" is-config="true" duration-ms="31" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@525b461a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@525b461a]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_11 -->
+    <test name="QLNV_12" duration-ms="98" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="setUpu" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@429bd883]" name="addStaff1" duration-ms="38" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@429bd883]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="AfterMethod" is-config="true" duration-ms="56" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@429bd883]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@429bd883]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_12 -->
+    <test name="QLNV_14" duration-ms="213" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@731f8236]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@731f8236]" name="addStaff1" duration-ms="76" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="AfterMethod" is-config="true" duration-ms="132" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@731f8236]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@731f8236]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_14 -->
+    <test name="QLNV_15" duration-ms="155" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@51931956]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@51931956]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@51931956]" name="addStaff1" duration-ms="108" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaaaaaaaaaaa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@51931956]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@51931956]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@51931956]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@51931956]" name="AfterMethod" is-config="true" duration-ms="45" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@51931956]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@51931956]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@51931956]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_15 -->
+    <test name="QLNV_16" duration-ms="133" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-06-26T15:03:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="addStaff1" duration-ms="93" started-at="2020-06-26T15:03:59Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12/22/1998sfde]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:03:59Z" finished-at="2020-06-26T15:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="AfterMethod" is-config="true" duration-ms="37" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@7bb58ca3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_16 -->
+    <test name="QLNV_17" duration-ms="82" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="addStaff1" duration-ms="40" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12221998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="AfterMethod" is-config="true" duration-ms="37" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@7f9fcf7f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_17 -->
+    <test name="QLNV_18" duration-ms="84" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="addStaff1" duration-ms="44" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="AfterMethod" is-config="true" duration-ms="37" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@57d5872c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_18 -->
+    <test name="QLNV_19" duration-ms="84" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="addStaff1" duration-ms="44" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[29/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="AfterMethod" is-config="true" duration-ms="39" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@52aa2946]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_19 -->
+    <test name="QLNV_20" duration-ms="140" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@2145433b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@2145433b]" name="addStaff1" duration-ms="59" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com!#@#]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="AfterMethod" is-config="true" duration-ms="74" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@2145433b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@2145433b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_20 -->
+    <test name="QLNV_21" duration-ms="125" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="setUpu" is-config="true" duration-ms="4" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="addStaff1" duration-ms="64" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodqssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="AfterMethod" is-config="true" duration-ms="55" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="springTestContextAfterTestClass" is-config="true" duration-ms="2" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@25b485ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_21 -->
+    <test name="QLNV_22" duration-ms="301" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="addStaff1" duration-ms="92" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodqgmailcom]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="AfterMethod" is-config="true" duration-ms="203" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@2ed0fbae]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_22 -->
+    <test name="QLNV_23" duration-ms="82" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:01Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="addStaff1" duration-ms="42" started-at="2020-06-26T15:04:00Z" description="Test DepartMent" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569!@#!@]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="AfterMethod" is-config="true" duration-ms="38" started-at="2020-06-26T15:04:00Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@16aa0a0a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_23 -->
+    <test name="QLNV_24" duration-ms="8" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@358c99f5]" name="setUpu" is-config="true" duration-ms="3" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@358c99f5]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2" started-at="2020-06-26T15:04:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@358c99f5]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@358c99f5]" name="addStaff1" duration-ms="0" started-at="2020-06-26T15:04:01Z" description="Test DepartMent" finished-at="2020-06-26T15:04:01Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: salary]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: salary
+at org.testng.internal.Parameters.convertType(Parameters.java:493)
+at org.testng.internal.Parameters.createParams(Parameters.java:293)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "10000!@#!@"
+at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+at java.lang.Double.parseDouble(Unknown Source)
+at java.lang.Double.valueOf(Unknown Source)
+at org.testng.internal.Parameters.convertType(Parameters.java:478)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@358c99f5]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@358c99f5]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_24 -->
+    <test name="QLNV_25" duration-ms="165" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="addStaff1" duration-ms="58" started-at="2020-06-26T15:04:01Z" description="Test DepartMent" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!@#!@$#@$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0976707569]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="AfterMethod" is-config="true" duration-ms="103" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@3d299e3]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_25 -->
+    <test name="QLNV_26" duration-ms="96" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="setUpu" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="addStaff1" duration-ms="48" started-at="2020-06-26T15:04:01Z" description="Test DepartMent" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daotq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tran Quang Dao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user.jpg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[daodq@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[097670756931234142131231312314124213123123123213123123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ch?a có]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="AfterMethod" is-config="true" duration-ms="41" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.String,boolean) throws bsh.ParseException,org.hibernate.hql.internal.QueryExecutionRequestException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="3" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@436a4e4b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_26 -->
+    <test name="QLNV_27" duration-ms="5" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@3e3047e6]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@3e3047e6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@3e3047e6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-06-26T15:04:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@3e3047e6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@3e3047e6]" name="addStaff1" duration-ms="0" started-at="2020-06-26T15:04:01Z" description="Test DepartMent" finished-at="2020-06-26T15:04:01Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: salary]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: salary
+at org.testng.internal.Parameters.convertType(Parameters.java:493)
+at org.testng.internal.Parameters.createParams(Parameters.java:293)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "10000sfde"
+at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+at java.lang.Double.parseDouble(Unknown Source)
+at java.lang.Double.valueOf(Unknown Source)
+at org.testng.internal.Parameters.convertType(Parameters.java:478)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@3e3047e6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_27 -->
+    <test name="QLNV_28" duration-ms="4" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+      <class name="Test.StaffDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:Test.StaffDaoTest@3745e5c6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:Test.StaffDaoTest@3745e5c6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="setUpu()[pri:0, instance:Test.StaffDaoTest@3745e5c6]" name="setUpu" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpu -->
+        <test-method status="FAIL" signature="addStaff1(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, boolean)[pri:0, instance:Test.StaffDaoTest@3745e5c6]" name="addStaff1" duration-ms="0" started-at="2020-06-26T15:04:01Z" description="Test DepartMent" finished-at="2020-06-26T15:04:01Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: salary]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: salary
+at org.testng.internal.Parameters.convertType(Parameters.java:493)
+at org.testng.internal.Parameters.createParams(Parameters.java:293)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "10000%$%#$^#^"
+at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+at java.lang.Double.parseDouble(Unknown Source)
+at java.lang.Double.valueOf(Unknown Source)
+at org.testng.internal.Parameters.convertType(Parameters.java:478)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStaff1 -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:Test.StaffDaoTest@3745e5c6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.StaffDaoTest@3745e5c6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-26T15:04:01Z" finished-at="2020-06-26T15:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.StaffDaoTest -->
+    </test> <!-- QLNV_28 -->
+  </suite> <!-- Suite -->
+</testng-results>

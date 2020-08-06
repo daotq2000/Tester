@@ -1,0 +1,10 @@
+<%@ page pageEncoding="utf-8"%>
+<footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+      <div class="copyright text-center my-auto">
+        <span>Copyright © 2019 - developed by Trần Quang Đạo
+         
+        </span>
+      </div>
+    </div>
+  </footer>

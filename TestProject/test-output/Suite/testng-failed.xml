@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="QLNV_03(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="          "/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_03(failed) -->
+  <test thread-count="5" name="QLNV_06(failed)">
+    <parameter name="expected" value="false"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_06(failed) -->
+  <test thread-count="5" name="QLNV_08(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_08(failed) -->
+  <test thread-count="5" name="QLNV_10(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_10(failed) -->
+  <test thread-count="5" name="QLNV_20(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000"/>
+    <parameter name="email" value="daodq@gmail.com!#@#"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_20(failed) -->
+  <test thread-count="5" name="QLNV_22(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000"/>
+    <parameter name="email" value="daodqgmailcom"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_22(failed) -->
+  <test thread-count="5" name="QLNV_24(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000!@#!@"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_24(failed) -->
+  <test thread-count="5" name="QLNV_25(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="!@#!@$#@$"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_25(failed) -->
+  <test thread-count="5" name="QLNV_27(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000sfde"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_27(failed) -->
+  <test thread-count="5" name="QLNV_28(failed)">
+    <parameter name="birthday" value="01/02/1998"/>
+    <parameter name="notes" value="Chưa có"/>
+    <parameter name="gender" value="true"/>
+    <parameter name="phone" value="0976707569"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Tran Quang Dao"/>
+    <parameter name="photo" value="user.jpg"/>
+    <parameter name="departId" value="NS"/>
+    <parameter name="id" value="daotq"/>
+    <parameter name="salary" value="10000%$%#$^#^"/>
+    <parameter name="email" value="daodq@gmail.com"/>
+    <classes>
+      <class name="Test.StaffDaoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpu"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="addStaff1"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Test.StaffDaoTest -->
+    </classes>
+  </test> <!-- QLNV_28(failed) -->
+</suite> <!-- Failed suite [Suite] -->

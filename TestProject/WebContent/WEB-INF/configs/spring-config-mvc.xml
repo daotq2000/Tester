@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:oxm="http://www.springframework.org/schema/oxm"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:websocket="http://www.springframework.org/schema/websocket"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+		http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms-4.0.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
+		http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket-4.0.xsd">
+	<context:annotation-config></context:annotation-config>
+	<mvc:annotation-driven></mvc:annotation-driven>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource"
+		p:driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		p:url="jdbc:sqlserver://localhost:1433;databaseName=lab6"
+		p:username="sa" p:password="songlong">
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+			</props>
+		</property>
+		<property name="packagesToScan" value="Model,DAO" />
+	</bean>
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager"
+		p:sessionFactory-ref="sessionFactory">
+
+	</bean>
+
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="basenames">
+			<list>
+				<value>classpath:login</value>
+				<value>classpath:register</value>
+				<value>classpath:depart</value>
+				<value>classpath:model</value>
+				<value>classpath:staff</value>
+				<value>classpath:achievement</value>
+				<value>classpath:Report</value>
+				<value>classpath:home</value>
+				<value>classpath:Users</value>
+				<value>classpath:message</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+		<property name="defaultLocale" value="vi" />
+		<property name="cookieMaxAge" value="43200" />
+	</bean>
+	<mvc:interceptors>
+		<bean id="localeChangeInterceptor"
+			class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+			<property name="paramName" value="language" />
+		</bean>
+	</mvc:interceptors>
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- maxUploadSize=20MB -->
+		<property name="maxUploadSize" value="20971520" />
+	</bean>
+	<bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+
+		<property name="port" value="587" />
+		<property name="username" value="daotqph08312@fpt.edu.vn" />
+		<property name="password" value="boyalone" />
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="javaMailProperties">
+
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>
+				<prop key="mail.smtp.socketFactory.port">587</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.debug">true</prop>
+
+			</props>
+		</property>
+	</bean>
+	<mvc:interceptors>
+		<mvc:interceptor>
+
+			<mvc:mapping path="/admin/ManagerStaff/index**" />
+			<mvc:mapping path="/admin/Achievements/index**" />
+			<mvc:mapping path="/admin/Report/index**" />
+			<mvc:mapping path="/admin/ManagerAcount**" />
+			<mvc:mapping path="/admin/ManergerDepart**" />
+			<bean class="Interceptor.LoggerInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+	<bean id="viewResolver"
+		p:prefix="/WEB-INF/view/layout-dispatcher.jsp?view=" p:suffix=".jsp"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver" />
+
+
+	<context:component-scan
+		base-package="Controller,Mailer,Interface,DAO"></context:component-scan>
+</beans>

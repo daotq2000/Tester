@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+  <test name="QLTK_001">
+  		<parameter name="username" value=""/>
+  		<parameter name="password" value="aaaaa"/>
+  		<parameter name="fullname" value="aaaa"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+  <test name="QLTK_004">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value=""/>
+  		<parameter name="fullname" value="anhdao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test> 
+
+	  <test name="QLTK_005">
+  		<parameter name="username" value="      "/>
+  		<parameter name="password" value="anhdao"/>
+  		<parameter name="fullname" value="anhdao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+
+	  <test name="QLTK_006">
+  		<parameter name="username" value=""/>
+  		<parameter name="password" value="                  "/>
+  		<parameter name="fullname" value="anhdao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+		
+	 <test name="QLTK_007">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="anhdao"/>
+  		<parameter name="fullname" value="                  "/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+ 
+	
+	 <test name="QLTK_0011">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="anhdao"/>
+  		<parameter name="fullname" value=" $$$$$$$*$$$  "/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+  
+	 <test name="QLTK_0012">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="anhdao"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+
+	<test name="QLTK_0013">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="           "/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="true"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+	<test name="QLTK_0014">
+  		<parameter name="username" value="ssssssssssssssssssssssssssssssssssssssssssssssssssssss"/>
+  		<parameter name="password" value="anhdao"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+ 
+ 	<test name="QLTK_0015">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="a"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+	<test name="QLTK_0016">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="676767"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+	<test name="QLTK_0017">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="aaaaaa"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+	<test name="QLTK_0018">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="aaaaaa"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+	<test name="QLTK_0019">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="Adao1234"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+	<test name="QLTK_0020">
+  		<parameter name="username" value="admin"/>
+  		<parameter name="password" value="ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"/>
+  		<parameter name="fullname" value="Tran Quang Dao"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.UserDAOTest">
+				<methods>
+					<include name="addUser"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+</suite> 

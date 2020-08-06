@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\quant\OneDrive\Desktop\Assignment\StaffTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">24 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 10 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq,           , true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)">addStaff1(daotq,           , true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1">addStaff1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1">addStaff1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com!#@#, 0976707569, 10000.0, Ch?a có...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com!#@#, 0976707569, 10000.0, Ch?a có...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqgmailcom, 0976707569, 10000.0, Ch?a có, NS, ...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqgmailcom, 0976707569, 10000.0, Ch?a có, NS, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1">addStaff1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, !@#!@$#@$, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fal...)">addStaff1(daotq, !@#!@$#@$, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fal...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1">addStaff1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1">addStaff1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(null, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS,...)">addStaff1(null, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, null, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fals...)">addStaff1(daotq, Tran Quang Dao, true, null, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fals...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, null, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, null, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, null, 10000.0, Ch?a có, NS, fals...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, null, 10000.0, Ch?a có, NS, fals...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, NS, f...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, NS, f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, null,...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, null,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, aaaaaaaaaaaa, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, ...)">addStaff1(daotq, Tran Quang Dao, true, aaaaaaaaaaaa, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 12/22/1998sfde, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có...)">addStaff1(daotq, Tran Quang Dao, true, 12/22/1998sfde, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 12221998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, ...)">addStaff1(daotq, Tran Quang Dao, true, 12221998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 30/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)">addStaff1(daotq, Tran Quang Dao, true, 30/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 29/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)">addStaff1(daotq, Tran Quang Dao, true, 29/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqssssssssssssssssssssssssssssssssssssssssssss...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqssssssssssssssssssssssssssssssssssssssssssss...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569!@#!@, 10000.0, Ch?a c...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569!@#!@, 10000.0, Ch?a c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.StaffDaoTest" hash-for-method="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 09767075693123414213123131231412...)">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 09767075693123414213123131231412...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.StaffDaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq,           , true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)">
+                  </a> <!-- addStaff1(daotq,           , true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq,           , true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1">
+                  </a> <!-- addStaff1 -->
+                  <span class="method-name">addStaff1</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Arguments: [null,null,null,null,null,null,null,null,null,null,(java.lang.Boolean) false]
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1">
+                  </a> <!-- addStaff1 -->
+                  <span class="method-name">addStaff1</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Arguments: [(java.lang.String) daotq,(java.lang.String) Tran Quang Dao,null,(java.lang.String) 01/02/1998,(java.lang.String) user.jpg,(java.lang.String) daodq@gmail.com,(java.lang.String) 0976707569,(java.lang.Double) 10000.0,(java.lang.String) Ch?a có,(java.lang.String) NS,(java.lang.Boolean) false]
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com!#@#, 0976707569, 10000.0, Ch?a có...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com!#@#, 0976707569, 10000.0, Ch?a có...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com!#@#, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqgmailcom, 0976707569, 10000.0, Ch?a có, NS, ...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqgmailcom, 0976707569, 10000.0, Ch?a có, NS, ...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqgmailcom, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1">
+                  </a> <!-- addStaff1 -->
+                  <span class="method-name">addStaff1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Conversion issue on parameter: salary
+Caused by: java.lang.NumberFormatException: For input string: &quot;10000!@#!@&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at java.lang.Double.valueOf(Unknown Source)
+	... 24 more
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, !@#!@$#@$, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fal...)">
+                  </a> <!-- addStaff1(daotq, !@#!@$#@$, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fal...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, !@#!@$#@$, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at Test.StaffDaoTest.addStaff1(StaffDaoTest.java:79)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1">
+                  </a> <!-- addStaff1 -->
+                  <span class="method-name">addStaff1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Conversion issue on parameter: salary
+Caused by: java.lang.NumberFormatException: For input string: &quot;10000sfde&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at java.lang.Double.valueOf(Unknown Source)
+	... 24 more
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1">
+                  </a> <!-- addStaff1 -->
+                  <span class="method-name">addStaff1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Conversion issue on parameter: salary
+Caused by: java.lang.NumberFormatException: For input string: &quot;10000%$%#$^#^&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at java.lang.Double.valueOf(Unknown Source)
+	... 24 more
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.StaffDaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(null, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS,...)">
+                  </a> <!-- addStaff1(null, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS,...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(null, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, null, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fals...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, null, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fals...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, null, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, null, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, null, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, null, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, null, 10000.0, Ch?a có, NS, fals...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, null, 10000.0, Ch?a có, NS, fals...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, null, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, NS, f...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, NS, f...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, null,...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, null,...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, null, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, aaaaaaaaaaaa, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, ...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, aaaaaaaaaaaa, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, ...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, aaaaaaaaaaaa, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 12/22/1998sfde, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 12/22/1998sfde, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 12/22/1998sfde, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 12221998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, ...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 12221998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, ...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 12221998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 30/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 30/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 30/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 29/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 29/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 29/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqssssssssssssssssssssssssssssssssssssssssssss...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqssssssssssssssssssssssssssssssssssssssssssss...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@gmail.com, 0976707569, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569!@#!@, 10000.0, Ch?a c...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569!@#!@, 10000.0, Ch?a c...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569!@#!@, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 09767075693123414213123131231412...)">
+                  </a> <!-- addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 09767075693123414213123131231412...) -->
+                  <span class="method-name">addStaff1</span>
+                  <span class="parameters">(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 097670756931234142131231312314124213123123123213123123, 10000.0, Ch?a có, NS, false)</span>
+                  <em>
+(Test DepartMent)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\quant\OneDrive\Desktop\Assignment\StaffTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_03&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;          &quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_03 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_05&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_05 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_06&quot;&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_06 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_07&quot;&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_07 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_08&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_08 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_09&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_09 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_10&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_10 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_11&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_11 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_12&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_12 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_14&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_14 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_15&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;aaaaaaaaaaaa&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_15 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_16&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;12/22/1998sfde&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_16 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_17&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;12221998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_17 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_18&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;30/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_18 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_19&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;29/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_19 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_20&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com!#@#&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_20 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_21&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodqssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_21 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_22&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodqgmailcom&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_22 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_23&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569!@#!@&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_23 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_24&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000!@#!@&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_24 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_25&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;!@#!@$#@$&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_25 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_26&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;097670756931234142131231312314124213123123123213123123&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_26 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_27&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000sfde&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_27 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QLNV_28&quot;&gt;
+    &lt;parameter name=&quot;birthday&quot; value=&quot;01/02/1998&quot;/&gt;
+    &lt;parameter name=&quot;notes&quot; value=&quot;Ch?a có&quot;/&gt;
+    &lt;parameter name=&quot;gender&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;0976707569&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Tran Quang Dao&quot;/&gt;
+    &lt;parameter name=&quot;photo&quot; value=&quot;user.jpg&quot;/&gt;
+    &lt;parameter name=&quot;departId&quot; value=&quot;NS&quot;/&gt;
+    &lt;parameter name=&quot;id&quot; value=&quot;daotq&quot;/&gt;
+    &lt;parameter name=&quot;salary&quot; value=&quot;10000%$%#$^#^&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;daodq@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.StaffDaoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStaff1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.StaffDaoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QLNV_28 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">QLNV_03 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_05 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_06 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_07 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_08 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_09 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_14 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_15 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_16 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_17 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_18 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_19 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_20 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_21 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_22 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_23 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_24 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_25 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_26 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_27 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QLNV_28 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addStaff1')
+data.setCell(0, 2, 'Test.StaffDaoTest')
+data.setCell(0, 3, 264);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addStaff1')
+data.setCell(1, 2, 'Test.StaffDaoTest')
+data.setCell(1, 3, 108);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addStaff1')
+data.setCell(2, 2, 'Test.StaffDaoTest')
+data.setCell(2, 3, 105);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addStaff1')
+data.setCell(3, 2, 'Test.StaffDaoTest')
+data.setCell(3, 3, 93);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addStaff1')
+data.setCell(4, 2, 'Test.StaffDaoTest')
+data.setCell(4, 3, 92);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addStaff1')
+data.setCell(5, 2, 'Test.StaffDaoTest')
+data.setCell(5, 3, 76);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addStaff1')
+data.setCell(6, 2, 'Test.StaffDaoTest')
+data.setCell(6, 3, 64);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addStaff1')
+data.setCell(7, 2, 'Test.StaffDaoTest')
+data.setCell(7, 3, 59);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addStaff1')
+data.setCell(8, 2, 'Test.StaffDaoTest')
+data.setCell(8, 3, 58);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addStaff1')
+data.setCell(9, 2, 'Test.StaffDaoTest')
+data.setCell(9, 3, 48);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addStaff1')
+data.setCell(10, 2, 'Test.StaffDaoTest')
+data.setCell(10, 3, 47);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addStaff1')
+data.setCell(11, 2, 'Test.StaffDaoTest')
+data.setCell(11, 3, 44);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addStaff1')
+data.setCell(12, 2, 'Test.StaffDaoTest')
+data.setCell(12, 3, 44);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addStaff1')
+data.setCell(13, 2, 'Test.StaffDaoTest')
+data.setCell(13, 3, 42);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addStaff1')
+data.setCell(14, 2, 'Test.StaffDaoTest')
+data.setCell(14, 3, 42);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addStaff1')
+data.setCell(15, 2, 'Test.StaffDaoTest')
+data.setCell(15, 3, 40);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'addStaff1')
+data.setCell(16, 2, 'Test.StaffDaoTest')
+data.setCell(16, 3, 38);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addStaff1')
+data.setCell(17, 2, 'Test.StaffDaoTest')
+data.setCell(17, 3, 38);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'addStaff1')
+data.setCell(18, 2, 'Test.StaffDaoTest')
+data.setCell(18, 3, 37);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addStaff1')
+data.setCell(19, 2, 'Test.StaffDaoTest')
+data.setCell(19, 3, 14);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'addStaff1')
+data.setCell(20, 2, 'Test.StaffDaoTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'addStaff1')
+data.setCell(21, 2, 'Test.StaffDaoTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addStaff1')
+data.setCell(22, 2, 'Test.StaffDaoTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addStaff1')
+data.setCell(23, 2, 'Test.StaffDaoTest')
+data.setCell(23, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.StaffDaoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">5590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addStaff1(daotq,           , true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)</span>
+                <span class="method-start">5590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">5858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">5953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">5954 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5954 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6021 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6021 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6021 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6026 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6026 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(null, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS,...)</span>
+                <span class="method-start">6026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6112 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6112 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6124 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6128 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6128 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6146 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6146 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6172 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6172 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6176 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, null, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fals...)</span>
+                <span class="method-start">6179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6322 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6322 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6327 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6327 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6327 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6331 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6331 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6347 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6348 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6348 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, null, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)</span>
+                <span class="method-start">6353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6396 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6428 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6428 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6436 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6437 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6437 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fa...)</span>
+                <span class="method-start">6438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6519 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6519 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6527 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6527 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6527 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, null, 10000.0, Ch?a có, NS, fals...)</span>
+                <span class="method-start">6528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6599 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6601 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6606 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6607 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6607 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, NS, f...)</span>
+                <span class="method-start">6608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6704 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6704 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6711 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6711 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6711 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, null, Ch?a có, null,...)</span>
+                <span class="method-start">6715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">6792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">6924 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6924 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, aaaaaaaaaaaa, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, ...)</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7091 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7092 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7105 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7106 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7106 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 12/22/1998sfde, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có...)</span>
+                <span class="method-start">7107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7238 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7238 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7242 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7242 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7242 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 12221998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, ...)</span>
+                <span class="method-start">7246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7324 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7324 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 30/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7411 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7412 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 29/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS...)</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7502 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7502 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7507 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7507 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7507 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com!#@#, 0976707569, 10000.0, Ch?a có...)</span>
+                <span class="method-start">7511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7646 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7646 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7653 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7657 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7657 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqssssssssssssssssssssssssssssssssssssssssssss...)</span>
+                <span class="method-start">7657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7776 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">7776 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7778 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">7786 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">7787 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">7787 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">7787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodqgmailcom, 0976707569, 10000.0, Ch?a có, NS, ...)</span>
+                <span class="method-start">7787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">7882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8087 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8087 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569!@#!@, 10000.0, Ch?a c...)</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">8137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8176 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8176 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">8177 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">8180 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">8180 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8185 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8185 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">8220 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">8220 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">8220 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addStaff1(daotq, !@#!@$#@$, true, 01/02/1998, user.jpg, daodq@gmail.com, 0976707569, 10000.0, Ch?a có, NS, fal...)</span>
+                <span class="method-start">8220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">8280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8384 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8384 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">8389 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">8390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">8390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStaff1(daotq, Tran Quang Dao, true, 01/02/1998, user.jpg, daodq@gmail.com, 09767075693123414213123131231412...)</span>
+                <span class="method-start">8390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">8439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void Test.StaffDaoTest.addStaff1(java.lang.String,java.lang.String,boolean,java.lang.String,j...)</span>
+                <span class="method-start">8480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8481 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8484 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">8488 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">8491 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">8491 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8493 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8493 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpu</span>
+                <span class="method-start">8504 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">8504 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">8504 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">8508 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8508 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

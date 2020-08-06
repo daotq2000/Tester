@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+ 
+  <test name="QLNV_03">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="          "/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_05">
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_06">
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_07">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_08">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_09">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_10">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_11">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_12">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_14">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="notes" value="Chưa có"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_15">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="aaaaaaaaaaaa"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_16">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="12/22/1998sfde"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_17">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="12221998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_18">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="30/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QLNV_19">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="29/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_20">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com!#@#"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_21">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodqssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_22">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodqgmailcom"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_23">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569!@#!@"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_24">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000!@#!@"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_25">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="!@#!@$#@$"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_26">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="097670756931234142131231312314124213123123123213123123"/>
+  		<parameter name="salary" value="10000"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_27">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000sfde"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QLNV_28">
+  		<parameter name="id" value="daotq"/>
+  		<parameter name="name" value="Tran Quang Dao"/>
+  		<parameter name="gender" value="true"/>
+  		<parameter name="birthday" value="01/02/1998"/>
+  		<parameter name="photo" value="user.jpg"/>
+  		<parameter name="email" value="daodq@gmail.com"/>
+  		<parameter name="phone" value="0976707569"/>
+  		<parameter name="salary" value="10000%$%#$^#^"/>
+  		<parameter name="notes" value="Chưa có"/>
+  		<parameter name="departId" value="NS"/>
+		<parameter name="expected" value="false"/>
+		<classes>
+			<class name="Test.StaffDaoTest">
+				<methods>
+					<include name="addStaff1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
